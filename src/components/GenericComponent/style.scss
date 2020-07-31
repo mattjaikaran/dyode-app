@@ -2,27 +2,49 @@
   background-image: url('../../images/Hero-Image-2.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 600px;
+  background-size: cover;
   .text-wrapper {
     float: right;
     padding-right: 8%;
     .title {
       font-family: 'Pacifico';
       color: white;
-      font-size: 36px;
-      padding-top: 220px;
-      margin-bottom: 0;
     }
     .tagline {
       font-family: 'Lato-Light';
       color: white;
-      font-size: 32px;
     }
     .cta {
       background-color: #218c74;
       border: #218c74;
       color: white;
+    }
+  }
+}
+
+
+@media (max-width: 767px) {
+  .generic-component {
+    height: 300px;
+    .text-wrapper {
+      margin-top: 70px;
+      .tagline {}
+      .cta {}
+    }
+  }
+}
+@media (min-width: 768px) {
+  .generic-component {
+    height: 638px;
+    .text-wrapper {
+      .title {
+        font-size: 36px;
+        padding-top: 220px;
+        margin-bottom: 0;
+      }
+      .tagline {
+        font-size: 32px;
+      }
     }
   }
 }
