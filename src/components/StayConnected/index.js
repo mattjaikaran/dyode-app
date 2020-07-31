@@ -20,11 +20,11 @@ const StayConnected = () => {
           </p>
         </Col>
         <Col className="newsletter-inputs" span={12} xs={24} sm={12}>
-          <Row>
-            <Col span={12}>
+          <Row gutter={12}>
+            <Col span={12} xs={18}>
               <Input className="input" placeholder="Your Email Address" />
             </Col>
-            <Col span={12}>
+            <Col span={12} xs={6}>
               <Button className="button">Subscribe</Button>
             </Col>
           </Row>

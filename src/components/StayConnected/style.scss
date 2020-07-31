@@ -33,3 +33,24 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .stay-connected {
+    height: 220px;
+    .title {
+      text-align: center;
+    }
+    .img-wrapper {}
+    .newsletter-wrapper {
+      .newsletter-text {
+        text-align: center;
+      }
+      .newsletter-inputs {
+        padding: 0 3%;
+        .button {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
