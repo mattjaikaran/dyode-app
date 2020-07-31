@@ -1,4 +1,14 @@
 .footer {
+  padding: 20px 40px;
   background-color: black;
-  color: white;
+  .title {
+    color: white;
+    font-family: 'Pacifico';
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  a {
+    color: white;
+    font-family: 'Lato-Light';
+  }
 }
