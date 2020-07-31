@@ -1,20 +1,19 @@
 .header {
   margin: 0;
-  height: 100px;
+  height: 45px;
   background-color: #218c74;
   color: white;
   text-align: center;
-  align-items: center;
+  vertical-align: middle;
   justify-content: center;
   .nav-link {
-    padding: 0 20px;
+    padding: 20px;
     color: white;
+    display: inline;
     text-decoration: none;
     font-family: 'Lato-Light';
     .logo {
-      max-width: 100px;
-      width: 100%;
-      display: inline;
+      max-width: 40px;
     }
   }
 }

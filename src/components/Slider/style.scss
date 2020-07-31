@@ -7,23 +7,35 @@
   overflow: hidden;
   .slide {
     vertical-align: middle;
-    .title, .tagline {
-      color: white;
-    }
-    .title {
-      font-family: 'Pacifico';
-      font-size: 32px;
-      margin-bottom: 10px;
-    }
-    .tagline {
-      font-family: 'Lato-Light';
-      font-size: 24px;
-    }
-    
     .slideImg {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      } 
+    .text-wrapper {
+      .title, .tagline {
+        color: white;
+      }
+      .title {
+        font-family: 'Pacifico';
+        font-size: 32px;
+        margin-bottom: 10px;
+      }
+      .tagline {
+        font-family: 'Lato-Light';
+        font-size: 24px;
+      }
+      .button-black {
+        background-color: black;
+        border: black;
+        color: white;
+      }
+    }
+    .slideImg-2 { 
+      .text-wrapper {
+        float: right;
+        padding-right: 10%;
+      }
     }
   }
 }
@@ -33,9 +45,12 @@
 @media (max-width: 767px) {
   .slider {
     .slide {
-      .title {
-        padding-top: 200px;
+      .text-wrapper {
+        .title {
+          padding-top: 200px;
+        }
       }
+      
     }
     .slideImg { 
       height: 480px; 

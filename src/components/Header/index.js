@@ -7,13 +7,13 @@ const logo = require('../../images/Logo.png')
 
 const Header = ({ siteTitle }) => (
   <header className="header">
-      <Link className="nav-link" to="/">
-        {/* <img
-          src={logo}
-          className="logo"
-          alt="logo"
-        /> */}
-        Logo
+    <Link className="nav-link" to="/">
+      <img
+        src={logo}
+        className="logo"
+        alt="logo"
+      />
+      {/* Logo */}
       </Link>
       <Link className="nav-link" to="/">Womens</Link>
       <Link className="nav-link" to="/">Mens</Link>

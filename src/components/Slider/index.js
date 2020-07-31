@@ -35,9 +35,11 @@ const Slider = () => {
           key={slideNumber}
           className="slide">
           <div className={`slideImg slideImg-${slideNumber}`}>
-            <h3 className="title">{title}</h3>
-            <p className="tagline">{tagline}</p>
-            <Button>SHOP NOW</Button>
+            <div className="text-wrapper">
+              <h3 className="title">{title}</h3>
+              <p className="tagline">{tagline}</p>
+              <Button className="button-black">SHOP NOW</Button>
+            </div>
           </div>
         </div>
       )
