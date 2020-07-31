@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Pacifico';
+  src: '../../fonts/Pacifico/Pacifico.ttf';
+}
+
+.slider {
+  overflow: hidden;
+  .slide {
+    vertical-align: middle;
+    .title, .tagline {
+      color: white;
+    }
+    .title {
+      font-family: 'Pacifico';
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    .tagline {
+      font-family: 'Lato-Light';
+      font-size: 24px;
+    }
+    
+    .slideImg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+
+//mobile
+@media (max-width: 767px) {
+  .slider {
+    .slide {
+      .title {
+        padding-top: 200px;
+      }
+    }
+    .slideImg { 
+      height: 480px; 
+      padding-left: 50px; 
+    }
+    .slideImg-1 {
+      background-image: url('../../images/Hero-Image-1-Mobile.jpg');
+    }
+    .slideImg-2 {
+      background-image: url('../../images/Hero-Image-2-Mobile.jpg');
+    }
+  }
+}
+
+
+//desktop
+@media (min-width: 768px) {
+  .slider {
+    .slide {
+      h3 {
+        padding-top: 250px;
+      }
+    }
+    .slideImg { 
+      height: 500px;
+      padding-left: 50px; 
+    }
+    .slideImg-1 {
+      background-image: url('../../images/Hero-Image-1.jpg');
+    }
+    .slideImg-2 {
+      background-image: url('../../images/Hero-Image-2.jpg');
+    }
+  }
+}

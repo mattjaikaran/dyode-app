@@ -1,0 +1,35 @@
+.stay-connected {
+  height: 200px;
+  background-color: #218c74;
+  color: white;
+  .title {
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    font-family: 'Pacifico';
+    font-size: 28px;
+    .img-wrapper {
+      padding-right: 10px;
+    }
+  }
+  .newsletter-wrapper {
+    .newsletter-text {
+      .signup-text {
+        padding: 0 10%;
+      }
+    }
+    .newsletter-inputs {
+      .input {
+        display: inline;
+      }
+      .button {
+        margin-left: 5px;
+        background-color: #218c74;
+        color: white;
+        border: 3px solid white;
+        font-family: 'Pacifico';
+        padding: 0 30px;
+      }
+    }
+  }
+}
